@@ -54,7 +54,7 @@ export default function Error() {
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
         <img
           src="https://media.giphy.com/media/UoeaPqYrimha6rdTFV/giphy.gif"
-          alt="Error Image"
+          alt="hello git new branch 01-03-2025-s"
           style={{ width: "300px", height: "300px", marginBottom: "2px",marginTop:"1px" }}
         />
         <h1 style={{ fontSize: "32px", fontWeight: "bold" }}>Oops! Something went wrong.</h1>
