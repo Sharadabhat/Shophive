@@ -38,14 +38,30 @@ import React from "react";
 
 export default function Error() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen w-screen text-center bg-gray-900 text-white">
-      <img
-        src="https://media.giphy.com/media/UoeaPqYrimha6rdTFV/giphy.gif"
-        alt="Error Image"
-        className="w-64 h-64 mb-4"
-      />
-      <h1 className="text-4xl font-bold">Oops! Something went wrong.</h1>
-      <p className="text-lg mt-2 text-gray-400">The page you're looking for cannot be found.</p>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+        width: "100vw",
+        textAlign: "center",
+        backgroundColor:"#abf3e3",
+        color: "#2b7d6a",
+      }}
+    >
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <img
+          src="https://media.giphy.com/media/UoeaPqYrimha6rdTFV/giphy.gif"
+          alt="Error Image"
+          style={{ width: "300px", height: "300px", marginBottom: "2px",marginTop:"1px" }}
+        />
+        <h1 style={{ fontSize: "32px", fontWeight: "bold" }}>Oops! Something went wrong.</h1>
+        <p style={{ fontSize: "18px", marginTop: "8px", color: "#2b7d6a" }}>
+          The page you're looking for cannot be found.
+        </p>
+      </div>
     </div>
   );
 }
